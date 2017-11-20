@@ -1,0 +1,50 @@
+{
+  "name": "think-esapi",
+  "version": "1.0.0",
+  "description": "An ESAPI(Enterprise Security API) extend for ThinkJS",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix index.js & eslint --fix lib/**.js",
+    "test": "npm run lint && nyc ava test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weihongyu12/think-esapi"
+  },
+  "keywords": [
+    "thinkjs3",
+    "esapi",
+    "xss"
+  ],
+  "author": {
+    "name": "weihongyu12",
+    "email": "weihongyu12@outlook.com"
+  },
+  "contributors": [
+    {
+      "name": "weihongyu12",
+      "email": "weihongyu12@outlook.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weihongyu12/think-esapi/issues"
+  },
+  "homepage": "https://github.com/weihongyu12/think-esapi",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "coveralls": "^3.0.0",
+    "eslint": "^4.11.0",
+    "eslint-config-think": "^1.0.2",
+    "nyc": "^11.3.0"
+  },
+  "dependencies": {
+    "node-esapi": "0.0.1",
+    "think-helper": "^1.0.22"
+  }
+}

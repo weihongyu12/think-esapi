@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
