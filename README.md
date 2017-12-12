@@ -1,6 +1,6 @@
 # think-esapi
 
-[![npm](https://img.shields.io/npm/v/think-esapi..svg)](https://www.npmjs.com/package/think-esapi)
+[![npm](https://img.shields.io/npm/v/think-esapi.svg)](https://www.npmjs.com/package/think-esapi)
 [![Build Status](https://travis-ci.org/weihongyu12/think-esapi.svg?branch=master)](https://travis-ci.org/weihongyu12/think-esapi)
 
 An ESAPI(Enterprise Security API) extend for ThinkJS
