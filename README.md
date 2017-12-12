@@ -2,6 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/think-esapi.svg)](https://www.npmjs.com/package/think-esapi)
 [![Build Status](https://travis-ci.org/weihongyu12/think-esapi.svg?branch=master)](https://travis-ci.org/weihongyu12/think-esapi)
+[![Coverage Status](https://coveralls.io/repos/github/weihongyu12/think-esapi/badge.svg?branch=master)](https://coveralls.io/github/weihongyu12/think-esapi?branch=master)
 
 An ESAPI(Enterprise Security API) extend for ThinkJS
 
