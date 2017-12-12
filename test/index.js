@@ -53,3 +53,9 @@ test('controller', t => {
   const encode = esapi.encodeForHTML('< > " \' / &');
   t.is(encode, '&lt; &gt; &quot; &#x27; &#x2f; &amp;');
 });
+
+test('service', t => {
+  const esapi = ESAPI.service.esapi;
+  const encode = esapi.encodeForHTML('< > " \' / &');
+  t.is(encode, '&lt; &gt; &quot; &#x27; &#x2f; &amp;');
+});

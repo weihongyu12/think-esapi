@@ -7,6 +7,9 @@ module.exports = {
   controller: {
     esapi: new ESAPI()
   },
+  service: {
+    esapi: new ESAPI()
+  },
   context: {
     esapi: new ESAPI()
   },
