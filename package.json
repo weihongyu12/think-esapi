@@ -35,7 +35,7 @@
     "node": ">=6.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0-rc.3",
+    "@babel/core": "^7.0.0",
     "ava": "^0.25.0",
     "babel-eslint": "^8.2.6",
     "coveralls": "^3.0.2",
